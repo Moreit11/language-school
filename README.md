@@ -1,2 +1,2 @@
 # language-school
-Website for language tutor 
+Generic Tutoring website 
