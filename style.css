@@ -1,0 +1,120 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background: #f8f9fa;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #005bbb, #ffd500);
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+header .subtitle {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+/* Sections */
+section {
+  margin: 40px 0;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #005bbb;
+}
+
+p {
+  margin-bottom: 15px;
+  font-size: 1.05rem;
+}
+
+/* Subjects list */
+.subjects ul {
+  list-style: none;
+}
+
+.subjects li {
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.subjects li::before {
+  content: "✔";
+  color: #005bbb;
+  position: absolute;
+  left: 0;
+}
+
+/* Lesson cards */
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Contact */
+.contact a {
+  color: #005bbb;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background: #005bbb;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  margin-top: 40px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+footer p {
+  font-size: 0.9rem;
+}
